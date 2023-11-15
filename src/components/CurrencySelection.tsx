@@ -28,8 +28,8 @@ const CurrencySelection = () => {
 
     return (
         <div>
-            <h1>Please select your currency.</h1>
-            <select onChange={onChnage}>
+            <h1 className="dark:text-white">Please select your currency.</h1>
+            <select onChange={onChnage} className="bg-inherit dark:text-white">
                 {currencies.map((cu, i) => {
                     return (
                         <option
